@@ -34,7 +34,7 @@ function solve() {
             totalSalary += salary;
          }
          avgSalary = totalSalary / values.length;
-
+         
          if (avgSalary > currAvgSalary) {
             currAvgSalary = avgSalary;
             bestNameRestaurant = key;
